@@ -1,51 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NIC Semantic Search</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-<!-- Top Navigation Bar -->
-<header class="navbar">
-    <div class="logo">
-        <img src="logo-light.png" alt="Team Evolv Logo">
-    </div>
-    <h1>NIC Semantic Search</h1>
-    <button id="theme-toggle">🌙</button>
-</header>
-
-<!-- Main Content -->
-<main class="main-container">
-    <section class="input-section">
-        <h2>Upload PDFs or Images</h2>
-        <input type="file" id="fileUpload" multiple accept=".pdf, image/*">
-        <h2>Enter Your Prompt</h2>
-        <div class="prompt-box">
-            <label for="userPrompt"></label><input type="text" id="userPrompt" placeholder="Type your query here...">
-            <button id="voiceInput">🎤</button>
+    <!-- Top Navigation Bar -->
+    <header class="navbar">
+        <div class="logo">
+            <img src="logo-light.png" alt="Team Evolv Logo">
         </div>
-    </section>
+        <h1>NIC Semantic Search</h1>
+        <button id="theme-toggle">🌙</button>
+    </header>
 
-    <section class="output-section">
-        <h2>Search Results</h2>
-        <div id="summaryOutput" class="output-box">
-            <h3>Summarized Result</h3>
-            <p>Summary will appear here...</p>
-        </div>
-        <div id="exactOutput" class="output-box">
-            <h3>Exact Match</h3>
-            <p>Exact text will appear here...</p>
-        </div>
-    </section>
-</main>
+    <!-- Main Content -->
+    <main class="main-container">
+        <section class="input-section">
+            <h2>Upload PDFs or Images</h2>
+            <div class="uploadicon" style="width:24px;height:24px"></div>
+            <input type="file" id="fileUpload" multiple accept=".pdf, image/*">
 
-<!-- Footer -->
-<footer>
-    <p>Developed by Team Evolv</p>
-</footer>
 
-<script src="script.js"></script>
+            <h2>Enter Your Prompt</h2>
+            <div class="prompt-box">
+                <label for="userPrompt"></label><input type="text" id="userPrompt"
+                    placeholder="Type your query here...">
+                <button id="voiceInput">🎤</button>
+            </div>
+        </section>
+
+        <section class="output-section">
+            <h2>Search Results</h2>
+            <div id="summaryOutput" class="output-box">
+                <h3>Summarized Result</h3>
+                <p>Summary will appear here...</p>
+            </div>
+            <div id="exactOutput" class="output-box">
+                <h3>Exact Match</h3>
+                <p>Exact text will appear here...</p>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>Developed by Team Evolv</p>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
+
 </html>
