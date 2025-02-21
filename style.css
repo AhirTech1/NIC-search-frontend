@@ -33,8 +33,8 @@ body.dark-mode {
 }
 
 .navbar .logo img {
-    height: 100px; /* Increased size but kept inside navbar */
-    width: 100px;
+    height: 110px; /* Increased size but kept inside navbar */
+    width: 110px;
     margin-right: 10px;
     border-radius: 10px;
 }
