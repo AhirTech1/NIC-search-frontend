@@ -42,7 +42,7 @@ header {
     /* Increased size but kept inside navbar */
     width: 110px;
     margin-right: 10px;
-    border-radius: 10px;
+    border-radius: 5px;
 }
 
 .dark-mode .navbar {
@@ -69,7 +69,9 @@ header {
 /* Upload and Prompt Section */
 .input-section {
     background-color: white;
-    padding: 40px;
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-right: 40px;
     border-radius: 10px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 
@@ -80,7 +82,7 @@ input {
     padding: 12px;
     font-size: 16px;
     border: none;
-    border-radius: 10px;
+    border-radius: 5px;
     background: #e9f5ff;
     outline: none;
     transition: all 0.3s ease;
@@ -93,11 +95,11 @@ input {
 
 
 
-
 .prompt-box {
     display: flex;
     align-items: center;
     margin-top: 10px;
+    margin-right:5px;
 }
 
 .dark-mode .prompt-box {
@@ -109,16 +111,16 @@ input {
     flex: 1;
     padding: 10px;
     border: 1px solid #ccc;
-    border-radius: 8px;
+    border-radius: 5px;
 }
 
 #voiceInput {
     background-color: #0077b6;
     border: none;
     color: white;
-    padding: 10px;
+    padding: 15px;
     margin-left: 10px;
-    border-radius: 8px;
+    border-radius: 5px;
     cursor: pointer;
 }
 
@@ -134,8 +136,8 @@ input {
 /* Output Section */
 .output-section {
     background-color: white;
-    padding: 20px;
-    border-radius: 10px;
+    padding: 15px;
+    border-radius: 5px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -147,8 +149,8 @@ input {
 
 .output-box {
     background-color: #e9f5ff;
-    padding: 15px;
-    border-radius: 8px;
+    padding: 10px;
+    border-radius: 5px;
     margin-bottom: 20px;
 }
 
@@ -160,7 +162,7 @@ input {
 /* Footer */
 footer {
     text-align: center;
-    padding: 15px;
+    padding: 10px;
     background-color: white;
     color: black;
     position: fixed;
